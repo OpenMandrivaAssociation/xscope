@@ -1,5 +1,5 @@
 Name:    xscope
-Version: 1.2
+Version: 1.3
 Release: %mkrel 1
 
 Summary:   X Window Protocol Viewer
