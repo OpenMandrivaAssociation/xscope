@@ -1,11 +1,10 @@
 Name:    xscope
-Version: 1.3
-Release: %mkrel 1
+Version: 1.3.1
+Release: 1
 
 Summary:   X Window Protocol Viewer
 Group:     Development/X11
 License:   MIT
-BuildRoot: %{_tmppath}/%{name}-root
 
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 
