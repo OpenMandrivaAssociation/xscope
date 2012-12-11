@@ -1,15 +1,16 @@
-Name:    xscope
-Version: 1.3.1
-Release: 1
+Name:		xscope
+Version:	1.4
+Release:	1
 
-Summary:   X Window Protocol Viewer
-Group:     Development/X11
-License:   MIT
+Summary:	X Window Protocol Viewer
+Group:		Development/X11
+License:	MIT
 
-Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+URL:		http://xorg.freedesktop.org
+Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 
-BuildRequires: libx11-devel
-BuildRequires: x11-xtrans-devel
+BuildRequires:	pkgconfig(x11)
+BuildRequires:	pkgconfig(xtrans)
 
 %description
 Xscope sits in-between an X11 client and an X11 server and prints the contents
@@ -27,13 +28,9 @@ and clients.
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
 
-%clean
-rm -rf %{buildroot}
-
 %files
-%defattr(-,root,root)
 %{_bindir}/xscope
 %{_mandir}/man1/xscope.1*
+
