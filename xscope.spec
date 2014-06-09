@@ -1,5 +1,5 @@
 Name:		xscope
-Version:	1.4
+Version:	1.4.1
 Release:	1
 
 Summary:	X Window Protocol Viewer
@@ -7,7 +7,7 @@ Group:		Development/X11
 License:	MIT
 
 URL:		http://xorg.freedesktop.org
-Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xtrans)
@@ -24,7 +24,7 @@ and clients.
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
