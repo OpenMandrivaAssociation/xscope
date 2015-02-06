@@ -1,6 +1,6 @@
 Name:		xscope
 Version:	1.4.1
-Release:	1
+Release:	2
 
 Summary:	X Window Protocol Viewer
 Group:		Development/X11
