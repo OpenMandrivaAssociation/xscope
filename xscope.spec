@@ -11,6 +11,7 @@ Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.
 
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xtrans)
+BuildRequires:	pkgconfig(xorg-macros) >= 1.8
 
 %description
 Xscope sits in-between an X11 client and an X11 server and prints the contents
