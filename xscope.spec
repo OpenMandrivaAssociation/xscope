@@ -6,7 +6,7 @@ Summary:	X Window Protocol Viewer
 Group:		Development/X11
 License:	MIT
 
-URL:		http://xorg.freedesktop.org
+URL:		https://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 
 BuildRequires:	pkgconfig(x11)
